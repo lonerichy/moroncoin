@@ -1,17 +1,17 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'MoronCoin',
+    description: 'Funding Morons Everywhere',
     image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      src: '/moroncoin.jpg',
+      alt: 'Evree badi gats uh leel moron n dem',
       width: 400,
       height: 300
     },
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo.svg', // path of the logo
+        path: '/moroncoin-logo.png', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
         alt: 'alpine' // alt of the logo
       }
@@ -26,8 +26,8 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      twitter: 'moroncoin',
+      instagram: 'moroncoin',
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
